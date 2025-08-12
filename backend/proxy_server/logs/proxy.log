@@ -1,0 +1,7 @@
+{"event": "server_start", "port": 8080, "timestamp": "2025-08-10 12:50:16"}
+{"event": "client_connect", "client": ["127.0.0.1", 61901], "timestamp": "2025-08-10 12:52:27"}
+{"event": "cache_miss", "host": "example.com", "client": ["127.0.0.1", 61901], "timestamp": "2025-08-10 12:52:27"}
+{"event": "connect_target", "host": "example.com", "port": 80, "timestamp": "2025-08-10 12:52:27"}
+{"event": "fetched", "host": "example.com", "client": ["127.0.0.1", 61901], "rtt": 0.590958833694458, "size": 1521, "timestamp": "2025-08-10 12:52:28"}
+{"event": "client_connect", "client": ["127.0.0.1", 61914], "timestamp": "2025-08-10 12:53:05"}
+{"event": "server_start", "port": 8080, "timestamp": "2025-08-10 16:29:24"}
