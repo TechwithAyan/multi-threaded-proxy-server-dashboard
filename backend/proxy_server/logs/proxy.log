@@ -5,3 +5,27 @@
 {"event": "fetched", "host": "example.com", "client": ["127.0.0.1", 61901], "rtt": 0.590958833694458, "size": 1521, "timestamp": "2025-08-10 12:52:28"}
 {"event": "client_connect", "client": ["127.0.0.1", 61914], "timestamp": "2025-08-10 12:53:05"}
 {"event": "server_start", "port": 8080, "timestamp": "2025-08-10 16:29:24"}
+{"event": "server_start", "port": 8080, "timestamp": "2025-08-13 17:35:31"}
+{"event": "server_start", "port": 8080, "timestamp": "2025-08-15 13:04:27"}
+{"event": "client_connect", "client": ["127.0.0.1", 59829], "timestamp": "2025-08-15 13:24:50"}
+{"event": "cache_hit", "host": "example.com", "client": ["127.0.0.1", 59829], "rtt": 0.006000041961669922, "size": 1567, "timestamp": "2025-08-15 13:24:50"}
+{"event": "server_start", "port": 8080, "timestamp": "2025-08-18 22:47:23"}
+{"event": "client_connect", "client": ["127.0.0.1", 58326], "timestamp": "2025-08-18 23:16:46"}
+{"event": "cache_miss", "host": "stackoverflow.com", "client": ["127.0.0.1", 58326], "timestamp": "2025-08-18 23:16:46"}
+{"event": "connect_target", "host": "stackoverflow.com", "port": 80, "timestamp": "2025-08-18 23:16:46"}
+{"event": "timeout", "host": "stackoverflow.com", "timestamp": "2025-08-18 23:17:06"}
+{"event": "client_connect", "client": ["127.0.0.1", 58456], "timestamp": "2025-08-18 23:17:55"}
+{"event": "cache_hit", "host": "example.com", "client": ["127.0.0.1", 58456], "rtt": 0.003994941711425781, "size": 1567, "timestamp": "2025-08-18 23:17:55"}
+{"event": "client_connect", "client": ["127.0.0.1", 58661], "timestamp": "2025-08-18 23:20:08"}
+{"event": "cache_hit", "host": "example.com", "client": ["127.0.0.1", 58661], "rtt": 0.002022266387939453, "size": 1567, "timestamp": "2025-08-18 23:20:08"}
+{"event": "client_connect", "client": ["127.0.0.1", 58662], "timestamp": "2025-08-18 23:20:08"}
+{"event": "cache_hit", "host": "example.com", "client": ["127.0.0.1", 58662], "rtt": 0.0010037422180175781, "size": 1567, "timestamp": "2025-08-18 23:20:08"}
+{"event": "client_connect", "client": ["127.0.0.1", 58663], "timestamp": "2025-08-18 23:20:08"}
+{"event": "cache_hit", "host": "example.com", "client": ["127.0.0.1", 58663], "rtt": 0.0010013580322265625, "size": 1567, "timestamp": "2025-08-18 23:20:08"}
+{"event": "client_connect", "client": ["127.0.0.1", 58664], "timestamp": "2025-08-18 23:20:08"}
+{"event": "cache_hit", "host": "example.com", "client": ["127.0.0.1", 58664], "rtt": 0.0010037422180175781, "size": 1567, "timestamp": "2025-08-18 23:20:08"}
+{"event": "client_connect", "client": ["127.0.0.1", 58665], "timestamp": "2025-08-18 23:20:08"}
+{"event": "cache_hit", "host": "example.com", "client": ["127.0.0.1", 58665], "rtt": 0.0009968280792236328, "size": 1567, "timestamp": "2025-08-18 23:20:08"}
+{"event": "server_start", "port": 8080, "timestamp": "2025-08-18 23:29:24"}
+{"event": "server_start", "port": 8080, "timestamp": "2025-08-19 23:19:42"}
+{"event": "server_start", "port": 8080, "timestamp": "2025-08-20 10:32:09"}
