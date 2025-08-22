@@ -1,0 +1,37 @@
+/* Gradient Text Animation */
+@keyframes textGradientShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Example noise texture (place this file in your public folder) */
+/* You can find "noise-texture.png" freely online or generate one */
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #0b1520;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00e5ffaa;
+  border-radius: 6px;
+}
+
+/* Smooth background gradient animation for dark mode */
+body[data-theme='dark'] {
+  animation: backgroundAnimation 15s ease-in-out infinite alternate;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
